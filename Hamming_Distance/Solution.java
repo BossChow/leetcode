@@ -1,6 +1,6 @@
 
 /**
- * The Hamming distance between two integers is the number of 
+ * The Hamming distance between two integers is the number of
  * positions at which the corresponding bits are different.
  *
  * Input: x = 1, y = 4
@@ -22,6 +22,8 @@ public class Solution {
     }
 
     public static int hammingDistance(int x, int y) {
+        //The java.lang.Integer.bitCount() method returns the number
+        //of one-bits in the two's complement binary representation of the specified int value i.
         return Integer.bitCount(x ^ y);
     }
 }
