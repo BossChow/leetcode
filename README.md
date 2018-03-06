@@ -1,3 +1,4 @@
 ## LeetCode算法实践 
-- [ ] Judge Route Circle 
+- [x] Judge Route Circle 
+- [x] Merge Two Binary Tree
 
