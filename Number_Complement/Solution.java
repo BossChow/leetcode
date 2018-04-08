@@ -29,6 +29,7 @@ public class Solution {
         System.out.println(mask + " : " + Integer.toBinaryString(mask));
         mask = mask - 1;
         System.out.println(mask + " : " + Integer.toBinaryString(mask));
+        System.out.println("Temp Result: " + Integer.toBinaryString(mask ^ num));
         num = ~num;
         System.out.println(num + " : " + Integer.toBinaryString(num));
         int result = num & mask;
